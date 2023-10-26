@@ -1,0 +1,32 @@
+.benefits .wrapper {
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 15px;
+  border: 1px solid var(--color);
+}
+
+.benefits .wrapper .top,
+.benefits .wrapper .bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.benefits .wrapper .top p,
+.benefits .wrapper .bottom p {
+  color: white;
+}
+
+.benefits .wrapper .bottom img {
+  align-self: self-end;
+}
+
+@media (max-width: 800px) {
+  .benefits .wrapper .top,
+  .benefits .wrapper .bottom {
+    flex-direction: column;
+  }
+  .benefits .wrapper .bottom img {
+    align-self: stretch;
+  }
+}

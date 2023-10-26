@@ -1,0 +1,13 @@
+.benefits .wrapper {
+  padding: 16px;
+  border-radius: 6px;
+  background: var(--color);
+}
+
+.benefits .wrapper .image-wrapper {
+  padding: 20px;
+}
+
+.benefits .wrapper .image-wrapper img {
+  width: 100%;
+}

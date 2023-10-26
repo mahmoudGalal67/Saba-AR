@@ -1,0 +1,28 @@
+.services {
+  padding: 25px;
+  background: #252022;
+}
+
+.services .wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.services .wrapper .card {
+  width: 240px;
+  height: 270px;
+}
+
+.services .wrapper .card img {
+  width: 100%;
+}
+
+.services .wrapper .card p {
+  margin: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}

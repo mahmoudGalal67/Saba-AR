@@ -1,0 +1,358 @@
+/* Header */
+
+header {
+  background: url(../images/home/Group\ 1000004873.png);
+  background-position: center;
+  background-size: cover;
+  min-height: calc(100vh - 60px);
+  padding: 25px 46px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+header h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: var(--color);
+  text-align: right;
+  font-family: Barlow;
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 136px; /* 90.667% */
+  letter-spacing: -3px;
+  text-transform: uppercase;
+}
+
+header h1 span {
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 48px;
+    gap: 5px;
+    line-height: 90px; /* 90.667% */
+  }
+}
+
+/* Header */
+
+/* SabaMedical */
+
+.saba-medical .wrapper {
+  display: flex;
+}
+
+.saba-medical .wrapper .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  gap: 25px;
+  background-color: #231f22;
+}
+
+.saba-medical .wrapper .left h2,
+.saba-medical .wrapper .left h3,
+.saba-medical .wrapper .left .details div {
+  color: var(--color);
+  font-family: Barlow;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 120% */
+  letter-spacing: 2.5px;
+}
+
+.saba-medical .wrapper .left h2 span,
+.saba-medical .wrapper .left .details div span,
+.saba-medical .wrapper .left h3 span {
+  color: #fff;
+}
+
+.saba-medical .wrapper .left h3 {
+  font-size: 36px;
+}
+.saba-medical .wrapper .left .details div {
+  font-size: 28px;
+}
+
+.saba-medical .wrapper .left p {
+  color: #fff;
+  font-family: Barlow;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 198.4%; /* 33.728px */
+  text-transform: lowercase;
+}
+
+.saba-medical .wrapper .right {
+  flex: 1;
+}
+
+.saba-medical .wrapper .right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 980px) {
+  .saba-medical .wrapper {
+    flex-direction: column;
+  }
+  .saba-medical .wrapper .right img {
+    max-height: 600px;
+  }
+  .saba-medical .wrapper .left h2 {
+    font-size: 36px;
+  }
+}
+
+/* SabaMediacl */
+
+/* InfoImages */
+
+.info-images .wrapper {
+  display: flex;
+}
+
+.info-images .right,
+.info-images .left {
+  flex: 1;
+}
+
+.info-images .right img,
+.info-images .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 980px) {
+  .info-images .wrapper {
+    flex-direction: column;
+  }
+}
+
+/* InfoImages */
+
+/* Gallary-images */
+
+.gallary-images .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 25px 45px;
+}
+
+.gallary-images .right,
+.gallary-images .left {
+  flex: 1;
+}
+
+.gallary-images .right img {
+  width: 100%;
+}
+
+.gallary-images .left div {
+  color: #231f22;
+  font-family: Barlow;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 120% */
+  letter-spacing: 2.5px;
+}
+
+.gallary-images .left p {
+  color: #231f22;
+  font-family: Barlow;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px; /* 172% */
+  text-align: justify;
+}
+
+.gallary-images .left p span {
+  color: #bd7624;
+  font-family: Aguafina Script;
+  font-size: 28px;
+  font-style: normal;
+  line-height: 57px; /* 203.571% */
+}
+
+@media (max-width: 1200px) {
+  .gallary-images .wrapper {
+    flex-direction: column;
+  }
+  .gallary-images .left p {
+    line-height: 35px;
+  }
+}
+
+/* Gallary-images */
+
+/* Blogs */
+
+.blogs .owl-carousel .image-wrapper {
+  padding: 8px;
+  height: 100%;
+}
+
+.blogs h2 {
+  color: #000;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 80px; /* 114.286% */
+  letter-spacing: 7px;
+}
+
+.blogs .owl-carousel .image-wrapper img {
+  height: 100%;
+}
+
+/* Blogs */
+
+/* Kutch */
+
+.kutch {
+  padding: 35px 45px;
+}
+
+.kutch .wrapper {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  border-radius: 31.868px;
+  background: #231f22;
+  box-shadow: 19.917774200439453px 7.967111110687256px 79.67109680175781px 0px
+    rgba(0, 0, 0, 0.16);
+}
+
+.kutch .wrapper .rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.kutch .wrapper span {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 39.836px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 39.836px; /* 100% */
+}
+
+.kutch .wrapper p {
+  color: #b9c8f3;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.852px; /* 150% */
+}
+
+.kutch .wrapper img {
+  width: 200px;
+}
+
+.kutch .wrapper .rating img {
+  width: 120px;
+}
+
+@media (max-width: 500px) {
+  .kutch .wrapper .rating {
+    flex-direction: column;
+  }
+  .kutch {
+    padding: 25px 15px;
+  }
+}
+
+/* Kutch */
+
+/* Working-hours */
+
+.working-hours {
+  margin: 30px 0;
+}
+
+.working-hours .wrapper {
+  display: flex;
+}
+
+.working-hours .wrapper .left,
+.working-hours .wrapper .right {
+  flex: 1;
+}
+
+.working-hours .wrapper .left {
+  padding: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.working-hours .wrapper .left .box {
+  padding: 65px 25px;
+  background: var(--color);
+}
+
+.working-hours .wrapper .left .box .subP {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.working-hours .wrapper .left .box h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 125% */
+  letter-spacing: 7.3px;
+}
+
+.working-hours .wrapper .left .box p {
+  margin: 20px 0;
+  color: #fff;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.working-hours .wrapper .right img {
+  width: 100%;
+  height: 100%;
+}
+
+.working-hours .wrapper .left {
+  background: url(../images/home/Group1000004873.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 800px) {
+  .working-hours .wrapper {
+    flex-direction: column;
+  }
+}
+
+/* Working-hours */

@@ -1,0 +1,10 @@
+.benefits .wrapper {
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 15px;
+  border: 1px solid var(--color);
+}
+
+.benefits .wrapper p {
+  color: white;
+}

@@ -1,0 +1,7 @@
+.text-ar {
+  text-align: right;
+}
+
+.content-ar {
+  flex-direction: row-reverse;
+}

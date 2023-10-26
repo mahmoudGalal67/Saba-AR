@@ -1,0 +1,31 @@
+.benefits .wrapper {
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 15px;
+  border: 1px solid var(--color);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.benefits .wrapper .left p {
+  color: white;
+}
+
+.benefits .wrapper .left {
+  flex: 2;
+}
+
+.benefits .wrapper .right {
+  flex: 1;
+}
+
+.benefits .wrapper .right img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .benefits .wrapper {
+    flex-direction: column;
+  }
+}

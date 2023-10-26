@@ -1,0 +1,26 @@
+.benefits {
+  color: white;
+}
+.benefits .wrapper {
+  padding: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.benefits .wrapper .left {
+  flex: 3;
+}
+.benefits .wrapper .right {
+  flex: 1;
+}
+.benefits .wrapper img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .benefits .wrapper {
+    flex-direction: column;
+  }
+}
